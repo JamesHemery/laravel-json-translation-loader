@@ -25,7 +25,7 @@ class FileLoader extends IlluminateFileLoader
             ? "{$locale}/{$group}.json"
             : "{$locale}.json";
 
-        if ($namespace !== '*' && !is_null($namespace)) {
+        if ($namespace !== '*' && !is_null($namespace) && array_key_exists($namespace, $this->hints)) {
             $lines = array_replace_recursive(
                 $lines,
                 $this->loadJsonPath("{$this->hints[$namespace]}/{$filename}")
