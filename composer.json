@@ -1,0 +1,41 @@
+{
+    "name": "jamesh/laravel-json-translation-loader",
+    "description": "A Laravel package to improve the loading of the JSON translation.",
+    "type": "plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Hemery",
+            "email": "hello@james-hemery.pro"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php" : "^7.2",
+        "illuminate/translation": "~5.7.0|~5.8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0|^8.0",
+        "orchestra/testbench": "~3.7.0|~3.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jamesh\\JsonTranslationLoader\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jamesh\\JsonTranslationLoader\\Test\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jamesh\\JsonTranslationLoader\\TranslationServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
