@@ -4,7 +4,7 @@
     "homepage": "https://github.com/JamesHemery/laravel-json-translation-loader",
     "keywords": [
         "laravel",
-        "translation-loader"
+        "translation-loader",
         "translate",
         "json",
         "language",
