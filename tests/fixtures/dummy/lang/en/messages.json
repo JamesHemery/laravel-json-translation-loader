@@ -1,0 +1,8 @@
+{
+  "error": "An error occurred.",
+  "required": "Required.",
+  "nested": {
+    "test": "Nested group with namespace",
+    "override": "No overrided"
+  }
+}

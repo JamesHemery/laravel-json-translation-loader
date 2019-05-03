@@ -1,0 +1,8 @@
+{
+  "loading": "Loading...",
+  "save": "Save",
+  "nested": {
+    "work": "It's work!",
+    "test": "Not overrided"
+  }
+}

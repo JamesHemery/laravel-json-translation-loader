@@ -1,0 +1,6 @@
+{
+  "hello": "Hello!",
+  "nested": {
+    "basic": "Basic test"
+  }
+}

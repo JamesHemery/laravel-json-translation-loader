@@ -1,0 +1,6 @@
+{
+  "welcome": "Welcome developper!",
+  "nested": {
+    "test": "Nested group"
+  }
+}
