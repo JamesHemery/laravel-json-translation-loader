@@ -1,0 +1,6 @@
+{
+  "save": "Save!",
+  "nested": {
+    "test": "Overrided"
+  }
+}

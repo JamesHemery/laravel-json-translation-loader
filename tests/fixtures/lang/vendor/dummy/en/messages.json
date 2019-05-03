@@ -1,0 +1,6 @@
+{
+  "required": "This is required.",
+  "nested": {
+    "override": "Overrided"
+  }
+}
